@@ -1,6 +1,20 @@
+body{
+   background-color: black;
+ 
+ 
+}
+ 
 
 
 
 .header{
 font-family: 'KH Interference TRIAL';
+color: #C2FE0B;
+text-align: center;
 }
+#question{
+font-family: 'KH Interference TRIAL';
+ color:#C2FE0B;
+text-align: center;
+}
+

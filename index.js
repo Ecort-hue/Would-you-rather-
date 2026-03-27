@@ -7,6 +7,7 @@ async function getQuestion() {
     fetch ("https://api.truthordarebot.xyz/api/wyr")
     .then(function (response) {
         return response.json();
+        
     })
     .then(function (data) {
         fetchedQuestion = data['question'];
@@ -17,5 +18,4 @@ async function getQuestion() {
         console.log(error);
     });
 }
-
 getQuestion()
