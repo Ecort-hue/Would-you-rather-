@@ -33,8 +33,14 @@ async function getQuestion() {
 
 getQuestion();
 
-const option1Button = document.getElementById("option1");
 
-option1Button.addEventListener('click', () => {
-    window.location.href = 'option1.html';
-});
+const option1Button = document.getElementById("option1");
+const option2Button = document.getElementById("option2");
+
+function selectOption(element) {
+    localStorage.setItem('chosenOption', element.innerHTML); 
+    window.location.href = 'results.html';
+}
+
+option1Button.addEventListener('click', () => selectOption(option1Button));
+option2Button.addEventListener('click', () => selectOption(option2Button));
