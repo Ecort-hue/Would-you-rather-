@@ -48,7 +48,7 @@ font-family: 'KH Interference TRIAL';
 }
 
 #option1, #option2 {
-   width: 50%;
+   width: 500px;
    height: 100px;
    font-size: 30px;
 }
@@ -63,5 +63,23 @@ font-family: 'KH Interference TRIAL';
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   gap: 200px;
+   gap: 20%;
+}
+
+@media (max-width: 600px) {
+
+   .header {
+      margin: 0px;
+   }
+   #options {
+   top: 80%;
+   bottom: 10%;
+   width: -100%;
+   
+
+   }
+   .option1,.option2 {
+    
+      height: -100px;
+   }
 }

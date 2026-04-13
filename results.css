@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'KH Interference TRIAL';
+    text-align: center;
+}
+
+.choice {
+    font-family: 'KH Interference TRIAL';
+    color: #C2FE0B;
+    text-align: center;
+    font-size: 85px
+     
+}
+
+@media (min-width: 400px) {
+.choice {grid-area: 1 / span 6;}
+.question{grid-area: 2 / span 1;}
+
+}
+
+
+.question {
+    font-family: 'KH Interference TRIAL';
+    color: #C2FE0B;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+.percent {
+    font-family: 'KH Interference TRIAL';
+    color: #C2FE0B;
+    text-align: center;
+    font-size: 120px;
+}
+
+.agreed {
+    font-family: 'KH Interference TRIAL';
+    color: #C2FE0B;
+    text-align: center;
+    font-size: 40px;
+}
